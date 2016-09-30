@@ -50,3 +50,6 @@ E:\_Hoctap\_Project\_MyProjects\Git\QLBanHangVB\QuanLyBanMayTinh\obj\Debug\QuanL
 E:\_Hoctap\_Project\_MyProjects\Git\QLBanHangVB\QuanLyBanMayTinh\obj\Debug\QuanLyBanMayTinh.frmTrangChu.resources
 E:\_Hoctap\_Project\_MyProjects\Git\QLBanHangVB\QuanLyBanMayTinh\obj\Debug\QuanLyBanMayTinh.Resources.resources
 E:\_Hoctap\_Project\_MyProjects\Git\QLBanHangVB\QuanLyBanMayTinh\obj\Debug\QuanLyBanMayTinh.vbproj.GenerateResource.Cache
+E:\_Hoctap\_Project\_MyProjects\Git\QLBanHangVB\QuanLyBanMayTinh\obj\Debug\QuanLyBanMayTinh.SuaHoaDon.resources
+E:\_Hoctap\_Project\_MyProjects\Git\QLBanHangVB\QuanLyBanMayTinh\obj\Debug\QuanLyBanMayTinh.Login.resources
+E:\_Hoctap\_Project\_MyProjects\Git\QLBanHangVB\QuanLyBanMayTinh\obj\Debug\QuanLyBanMayTinh.frmDangki.resources

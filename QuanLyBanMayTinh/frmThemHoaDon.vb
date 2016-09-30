@@ -62,6 +62,7 @@ Public Class frmThemHoaDon
                 .ExecuteNonQuery()
             End With
         Next
+        MessageBox.Show("Thêm dữ liệu thành công", "Infomation", MessageBoxButtons.OK)
         cn.Close()
     End Sub
 

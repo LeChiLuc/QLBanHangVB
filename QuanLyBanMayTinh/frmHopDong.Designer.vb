@@ -46,7 +46,7 @@ Partial Class frmHopDong
         '
         'btnCancel
         '
-        Me.btnCancel.Location = New System.Drawing.Point(216, 280)
+        Me.btnCancel.Location = New System.Drawing.Point(296, 354)
         Me.btnCancel.Name = "btnCancel"
         Me.btnCancel.Size = New System.Drawing.Size(89, 33)
         Me.btnCancel.TabIndex = 20
@@ -55,7 +55,7 @@ Partial Class frmHopDong
         '
         'btnOK
         '
-        Me.btnOK.Location = New System.Drawing.Point(76, 280)
+        Me.btnOK.Location = New System.Drawing.Point(156, 354)
         Me.btnOK.Name = "btnOK"
         Me.btnOK.Size = New System.Drawing.Size(89, 33)
         Me.btnOK.TabIndex = 19
@@ -64,155 +64,173 @@ Partial Class frmHopDong
         '
         'txtHDDenNgay
         '
-        Me.txtHDDenNgay.Location = New System.Drawing.Point(140, 217)
+        Me.txtHDDenNgay.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
+        Me.txtHDDenNgay.Location = New System.Drawing.Point(229, 260)
         Me.txtHDDenNgay.Name = "txtHDDenNgay"
-        Me.txtHDDenNgay.Size = New System.Drawing.Size(203, 20)
+        Me.txtHDDenNgay.Size = New System.Drawing.Size(203, 26)
         Me.txtHDDenNgay.TabIndex = 17
         '
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(53, 217)
+        Me.Label7.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
+        Me.Label7.Location = New System.Drawing.Point(93, 263)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(77, 13)
+        Me.Label7.Size = New System.Drawing.Size(118, 19)
         Me.Label7.TabIndex = 5
         Me.Label7.Text = "HĐ Đến Ngày:"
         '
         'txtHDTuNgay
         '
-        Me.txtHDTuNgay.Location = New System.Drawing.Point(140, 191)
+        Me.txtHDTuNgay.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
+        Me.txtHDTuNgay.Location = New System.Drawing.Point(229, 228)
         Me.txtHDTuNgay.Name = "txtHDTuNgay"
-        Me.txtHDTuNgay.Size = New System.Drawing.Size(203, 20)
+        Me.txtHDTuNgay.Size = New System.Drawing.Size(203, 26)
         Me.txtHDTuNgay.TabIndex = 16
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(53, 191)
+        Me.Label6.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
+        Me.Label6.Location = New System.Drawing.Point(93, 231)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(70, 13)
+        Me.Label6.Size = New System.Drawing.Size(109, 19)
         Me.Label6.TabIndex = 7
         Me.Label6.Text = "HĐ Từ Ngày:"
         '
         'txtPhuCapKhac
         '
-        Me.txtPhuCapKhac.Location = New System.Drawing.Point(140, 165)
+        Me.txtPhuCapKhac.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
+        Me.txtPhuCapKhac.Location = New System.Drawing.Point(229, 196)
         Me.txtPhuCapKhac.Name = "txtPhuCapKhac"
-        Me.txtPhuCapKhac.Size = New System.Drawing.Size(203, 20)
+        Me.txtPhuCapKhac.Size = New System.Drawing.Size(203, 26)
         Me.txtPhuCapKhac.TabIndex = 15
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(53, 165)
+        Me.Label5.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
+        Me.Label5.Location = New System.Drawing.Point(93, 199)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(79, 13)
+        Me.Label5.Size = New System.Drawing.Size(125, 19)
         Me.Label5.TabIndex = 8
         Me.Label5.Text = "Phụ Cấp Khác:"
         '
         'txtPhuCapCV
         '
-        Me.txtPhuCapCV.Location = New System.Drawing.Point(140, 139)
+        Me.txtPhuCapCV.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
+        Me.txtPhuCapCV.Location = New System.Drawing.Point(229, 164)
         Me.txtPhuCapCV.Name = "txtPhuCapCV"
-        Me.txtPhuCapCV.Size = New System.Drawing.Size(203, 20)
+        Me.txtPhuCapCV.Size = New System.Drawing.Size(203, 26)
         Me.txtPhuCapCV.TabIndex = 13
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(53, 139)
+        Me.Label4.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
+        Me.Label4.Location = New System.Drawing.Point(93, 167)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(68, 13)
+        Me.Label4.Size = New System.Drawing.Size(107, 19)
         Me.Label4.TabIndex = 10
         Me.Label4.Text = "Phụ Cấp CV:"
         '
         'txtLuongCB
         '
-        Me.txtLuongCB.Location = New System.Drawing.Point(140, 113)
+        Me.txtLuongCB.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
+        Me.txtLuongCB.Location = New System.Drawing.Point(229, 132)
         Me.txtLuongCB.Name = "txtLuongCB"
-        Me.txtLuongCB.Size = New System.Drawing.Size(203, 20)
+        Me.txtLuongCB.Size = New System.Drawing.Size(203, 26)
         Me.txtLuongCB.TabIndex = 18
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(53, 113)
+        Me.Label3.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
+        Me.Label3.Location = New System.Drawing.Point(93, 135)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(78, 13)
+        Me.Label3.Size = New System.Drawing.Size(130, 19)
         Me.Label3.TabIndex = 9
         Me.Label3.Text = "Lương Cơ Bản:"
         '
         'txtMaNV
         '
-        Me.txtMaNV.Location = New System.Drawing.Point(140, 61)
+        Me.txtMaNV.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
+        Me.txtMaNV.Location = New System.Drawing.Point(229, 68)
         Me.txtMaNV.Name = "txtMaNV"
-        Me.txtMaNV.Size = New System.Drawing.Size(203, 20)
+        Me.txtMaNV.Size = New System.Drawing.Size(203, 26)
         Me.txtMaNV.TabIndex = 12
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(53, 61)
+        Me.Label1.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
+        Me.Label1.Location = New System.Drawing.Point(93, 71)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(43, 13)
+        Me.Label1.Size = New System.Drawing.Size(63, 19)
         Me.Label1.TabIndex = 6
         Me.Label1.Text = "Mã NV:"
         '
         'txtCM
         '
-        Me.txtCM.Location = New System.Drawing.Point(140, 35)
+        Me.txtCM.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
+        Me.txtCM.Location = New System.Drawing.Point(229, 36)
         Me.txtCM.Name = "txtCM"
         Me.txtCM.ReadOnly = True
-        Me.txtCM.Size = New System.Drawing.Size(203, 20)
+        Me.txtCM.Size = New System.Drawing.Size(203, 26)
         Me.txtCM.TabIndex = 14
         '
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(53, 35)
+        Me.Label8.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
+        Me.Label8.Location = New System.Drawing.Point(93, 39)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(88, 13)
+        Me.Label8.Size = New System.Drawing.Size(137, 19)
         Me.Label8.TabIndex = 3
         Me.Label8.Text = "Mã Chuyên Mục:"
         '
         'txtGhiChu
         '
-        Me.txtGhiChu.Location = New System.Drawing.Point(140, 244)
+        Me.txtGhiChu.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
+        Me.txtGhiChu.Location = New System.Drawing.Point(229, 292)
         Me.txtGhiChu.Name = "txtGhiChu"
-        Me.txtGhiChu.Size = New System.Drawing.Size(203, 20)
+        Me.txtGhiChu.Size = New System.Drawing.Size(203, 26)
         Me.txtGhiChu.TabIndex = 22
         '
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(53, 244)
+        Me.Label9.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
+        Me.Label9.Location = New System.Drawing.Point(93, 295)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(48, 13)
+        Me.Label9.Size = New System.Drawing.Size(77, 19)
         Me.Label9.TabIndex = 21
         Me.Label9.Text = "Ghi Chú:"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(53, 87)
+        Me.Label2.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
+        Me.Label2.Location = New System.Drawing.Point(93, 103)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(46, 13)
+        Me.Label2.Size = New System.Drawing.Size(70, 19)
         Me.Label2.TabIndex = 4
         Me.Label2.Text = "Họ Tên:"
         '
         'txtHoTen
         '
-        Me.txtHoTen.Location = New System.Drawing.Point(140, 87)
+        Me.txtHoTen.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
+        Me.txtHoTen.Location = New System.Drawing.Point(229, 100)
         Me.txtHoTen.Name = "txtHoTen"
         Me.txtHoTen.ReadOnly = True
-        Me.txtHoTen.Size = New System.Drawing.Size(203, 20)
+        Me.txtHoTen.Size = New System.Drawing.Size(203, 26)
         Me.txtHoTen.TabIndex = 11
         '
         'frmHopDong
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(397, 340)
+        Me.ClientSize = New System.Drawing.Size(550, 437)
         Me.Controls.Add(Me.txtGhiChu)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.btnCancel)

@@ -92,6 +92,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataBaseSQL.vb" />
+    <Compile Include="frmDangki.Designer.vb">
+      <DependentUpon>frmDangki.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDangki.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmHoaDon.Designer.vb">
       <DependentUpon>frmHoaDon.vb</DependentUpon>
     </Compile>
@@ -146,6 +152,12 @@
     <Compile Include="frmTrangChu.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -161,8 +173,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="SuaHoaDon.Designer.vb">
+      <DependentUpon>SuaHoaDon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SuaHoaDon.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmDangki.resx">
+      <DependentUpon>frmDangki.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmHoaDon.resx">
       <DependentUpon>frmHoaDon.vb</DependentUpon>
     </EmbeddedResource>
@@ -190,11 +211,17 @@
     <EmbeddedResource Include="frmTrangChu.resx">
       <DependentUpon>frmTrangChu.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SuaHoaDon.resx">
+      <DependentUpon>SuaHoaDon.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

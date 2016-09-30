@@ -83,6 +83,37 @@
     End Sub
 
     Private Sub btnSua_Click(sender As Object, e As EventArgs) Handles btnSua.Click
+        Dim frm As New SuaHoaDon
+        frm.txtMaCM.Text = Me.cmbCM.SelectedValue
+        With Me.dgvCommon
+            frm.txtMaHD.Text = .Rows(.CurrentCell.RowIndex).Cells("MaHD").Value
+            frm.txtMaNV.Text = .Rows(.CurrentCell.RowIndex).Cells("MaNV").Value
+            frm.txtTenNV.Text = .Rows(.CurrentCell.RowIndex).Cells("TenNV").Value
+            frm.txtTenKH.Text = .Rows(.CurrentCell.RowIndex).Cells("TenKH").Value
+            frm.txtDC.Text = .Rows(.CurrentCell.RowIndex).Cells("DiaChi").Value
+            frm.txtSDT.Text = .Rows(.CurrentCell.RowIndex).Cells("SDT").Value
+            frm.DateTimePicker1.Text = .Rows(.CurrentCell.RowIndex).Cells("NgayTaoHD").Value
+            frm.txtTong.Text = .Rows(.CurrentCell.RowIndex).Cells("SubTotal").Value
+            frm.txtThanhTien.Text = .Rows(.CurrentCell.RowIndex).Cells("Total").Value
+        End With
+        frm.ShowDialog()
+        If frm.DialogResult = DialogResult.OK Then 'Sua du lieu thanh cong thi load lai du lieu 
+            LoadDataHDOnGridView(Me.cmbCM.SelectedValue)
+        End If
+    End Sub
 
+    Private Sub btnXoa_Click(sender As Object, e As EventArgs) Handles btnXoa.Click
+        'Khai bao bien lay MaSP ma can xoa da duoc chon tren gridview
+        Dim MaHD As String = Me.dgvCommon.Rows(Me.dgvCommon.CurrentCell.RowIndex).Cells("MaHD").Value
+        'Khai bao cau lenh Query de xoa
+        Dim sqlQuery As String = String.Format("DELETE HoaDon WHERE MaHD = '{0}'", MaHD)
+        'Thuc hien xoa
+        If _DBSQL.ExecuteNoneQuery(sqlQuery) Then
+            MessageBox.Show("Đã xóa dữ liệu thành công!")
+            'Load lai du lieu tren Gridview
+            LoadDataHDOnGridView(Me.cmbCM.SelectedValue)
+        Else
+            MessageBox.Show("Lỗi xóa dữ liệu!")
+        End If
     End Sub
 End Class
